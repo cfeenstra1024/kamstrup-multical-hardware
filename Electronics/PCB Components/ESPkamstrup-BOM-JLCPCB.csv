@@ -1,0 +1,13 @@
+Comment,Designator,Footprint
+"S9013 J3","Q8,Q2,Q4,Q5,Q1,Q7,Q6","SOT-23"
+"Conn_01x03_Male","J1,J3","PinHeader_1x03_P2.54mm_Vertical"
+"S9015","Q3","SOT-23"
+"ESP8266_D1mini","U1","ESP8266_D1mini"
+"10k","R2,R8,R6,R11,R1","R_0402_1005Metric"
+"100","R5","R_0402_1005Metric"
+"",",,",""
+"Conn_01x07_Male","J2","PinHeader_1x07_P2.54mm_Vertical"
+"39k","R12,R10,R9,R13,R7,R4","R_0402_1005Metric"
+"15k","R3","R_0402_1005Metric"
+"D_Photo","D1","LED_D5.0mm"
+"IR LED","D2","LED_D5.0mm"

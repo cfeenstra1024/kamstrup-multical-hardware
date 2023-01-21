@@ -1,0 +1,13 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"Q8,Q2,Q4,Q5,Q1,Q7,Q6";"SOT-23";7;"S9013 J3";;;
+2;"J1,J3";"PinHeader_1x03_P2.54mm_Vertical";2;"Conn_01x03_Male";;;
+3;"Q3";"SOT-23";1;"S9015";;;
+4;"U1";"ESP8266_D1mini";1;"ESP8266_D1mini";;;
+5;"R2,R8,R6,R11,R1";"R_0402_1005Metric";5;"10k";;;
+6;"R5";"R_0402_1005Metric";1;"100";;;
+7;",,";"";3;"";;;
+8;"J2";"PinHeader_1x07_P2.54mm_Vertical";1;"Conn_01x07_Male";;;
+9;"R12,R10,R9,R13,R7,R4";"R_0402_1005Metric";6;"39k";;;
+10;"R3";"R_0402_1005Metric";1;"15k";;;
+11;"D1";"LED_D5.0mm";1;"D_Photo";;;
+12;"D2";"LED_D5.0mm";1;"IR LED";;;
