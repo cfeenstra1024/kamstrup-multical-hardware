@@ -50,5 +50,5 @@ A new component for use with ESPHome has been created and a pull request is pend
 
 Until that time, you can use the external component in your configuration file. Refer to this 
 [GitHub repo](https://github.com/cfeenstra1024/esphome/tree/kamstrup_mc40x_temp#readme) 
-for an example configuration file. [Documentation](https://deploy-preview-2551--esphome.netlify.app/components/sensor/kamstrup_mc40x.html) 
+for an example configuration file. [Documentation](https://deploy-preview-3513--esphome.netlify.app/components/sensor/kamstrup_kmp) 
 for the component is also available.
