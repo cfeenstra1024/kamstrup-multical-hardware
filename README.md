@@ -46,9 +46,30 @@ in the 4 holes. Every hole fits 2 magnets (using a total of 8).
 
 ## Software
 
-A new component for use with ESPHome has been created and a pull request is pending. When the pull request is merged, you can add the required config to your ESPHome configuration to use the component.
+Use the `kamstrup_kmp` component in ESPHome. Refer to the [Documentation](https://esphome.io/components/sensor/kamstrup_kmp) for all details regarding this component.
 
-Until that time, you can use the external component in your configuration file. Refer to this 
-[GitHub repo](https://github.com/cfeenstra1024/esphome/tree/kamstrup_mc40x_temp#readme) 
-for an example configuration file. [Documentation](https://deploy-preview-3513--esphome.netlify.app/components/sensor/kamstrup_kmp) 
-for the component is also available.
+Example config file:
+```yml
+uart:
+  baud_rate: 1200
+  stop_bits: 2
+  tx_pin: GPIO15
+  rx_pin: GPIO13
+
+sensor:
+  - platform: kamstrup_mc40x
+    heat_energy:
+      name: 'Heat Energy'
+    power:
+      name: 'Heat Power'
+    temp_diff:
+      name: 'Heat Temperature Difference'
+    flow:
+      name: 'Heat Flow'
+    custom:
+      - name: Custom Heat Energy
+        command: 0x003C
+      - name: Custom Heat Power
+        command: 0x0050
+    update_interval: 60s
+```
