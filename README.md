@@ -9,7 +9,7 @@ Using this setup you can read measurements from the Kamstrup Multical (e.g. city
 ## Electronics
 The Kamstrup Multical 403 uses an optical interface for communication. A PCB was designed that uses a mini-D1 ESP8266 board. The 
 [PCB Gerbers](Electronics/PCB%20Gerbers) folder contains the 
-required files to fabricate the PCB. The [PCB Components](Electronics/PCB%20Components) folder contains the BOM (bill of materials) and the component placement files. A special version for use with [JLCBCB](https://jlcpcb.com/) has been created for these.
+required files to fabricate the PCB. The [PCB Components](Electronics/PCB%20Components) folder contains the BOM (bill of materials) and the component placement files. A special version for use with [JLCBCB](https://jlcpcb.com/) has been created for these. To order the PCB from JLCPCB, follow the steps in the [Electronics README](./Electronics/README.md).
 
 The PCB has the following features:
 - Optical interface for use with the Kamstrup meter
